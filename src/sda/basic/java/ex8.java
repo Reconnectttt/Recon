@@ -5,7 +5,8 @@ import java.util.Scanner;
 public class ex8 {
     public static void main(String[] args) {
 /*boolean result = isPrimeNumber(5);
-        System.out.println("If digit is prime: " + result);*/
+        System.out.println("If digit is prime: " + result);*//*
+
         printPrimeNumbersFromRange(2, 10);
     }
     private static void printPrimeNumbersFromRange(int min, int max){
@@ -27,20 +28,22 @@ public class ex8 {
         return true;
     }
 
+*/
 
 
 
 
 
-
-    /*   Scanner scanner = new Scanner(System.in);
+/*
+   Scanner scanner = new Scanner(System.in);
        System.out.println("Please insert max digit: ");
         int maxDigit = scanner.nextInt();
 
         for(int i = 5; i <= 4; i++);
-         System.out.println("Prime numbers: " + )*/
+         System.out.println("Prime numbers: " + );*/
 
-       /* int number = 5;
+
+ int number = 27;
         boolean prime = false;
         for(int i = 2; i <= number/2; ++i) {
             if(number % i == 0){
@@ -52,5 +55,6 @@ public class ex8 {
             System.out.println(number + " is a prime number.");
         else
             System.out.println(number + " is not a prime number.");
-    }*/
+    }
+
 }
